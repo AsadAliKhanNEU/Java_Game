@@ -17,7 +17,7 @@ interface IList<T> extends Iterable<T> {
     //is this IList a ConsList
     boolean isCons();
 
-"    //return the given IList as a ConsList, if it is an empty list, throw"
+    //return the given IList as a ConsList, if it is an empty list, throw
     //an exception
     ConsList<T> asCons();
 
